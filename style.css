@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    height: 50px;
+    width: 450px;
+}
+button{
+    height: 55px;
+    width: 55px;
+}
+.contentDiv{
+    height: 500px;
+    width: 520px;
+    background-color: white;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.deleteButton{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    cursor:pointer;
+    display: inline-block;
+}
